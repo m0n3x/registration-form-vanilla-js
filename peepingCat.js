@@ -13,7 +13,6 @@ formInputs.forEach(function (input) {
 
 const resetCatImage = (event) => {
   if (event.target.id !== "toggle-password") {
-    console.log("reset");
     catImage.src = "./assets/initialCat.png";
   }
 };
