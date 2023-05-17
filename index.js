@@ -83,7 +83,6 @@ togglePassword.addEventListener("click", function () {
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  console.log("submit");
   const isValidForm = validateForm();
 
   if (isValidForm) {
